@@ -1,0 +1,60 @@
+* {
+    background-color: rgba(8, 169, 180, 0.781);
+}
+
+h1 {
+    font-size: 50px;
+    margin-top: 20px;
+    margin-left: 30px;
+    cursor: pointer;
+}
+
+p {
+    font-size: 30px;
+    width: 1000px;
+    display: block;
+    margin-left: 30px;
+    cursor: pointer;
+}
+
+.minha-foto {
+    margin-top: 20px;
+    width: 600px;
+    height: 800px;
+    display: block;
+    margin-left: 30px;
+    cursor: pointer;
+}
+
+.meu-link {
+    font-size: 30px;
+    color: rgb(255, 230, 8);
+    text-decoration: none;
+    display: inline-block;
+    margin-left: 30px;
+    font: bold;
+}
+
+.insta {
+    cursor: progress;
+    display: inline-block;
+    width: 30px;
+    margin-left: 10px;
+}
+
+
+a:hover {
+    color: rgb(243, 12, 12);
+}
+
+a:active {
+    color: rgb(8, 241, 8)
+}
+
+h1:hover {
+    color: azure
+}
+
+p:hover {
+    color: beige
+}
