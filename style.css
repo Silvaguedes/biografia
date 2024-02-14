@@ -1,5 +1,8 @@
 * {
-    background-color: rgba(8, 169, 180, 0.781);
+    background: url("https://source.unsplash.com/1600x900/?landscape"); 
+    background-size: cover;
+    
+
 }
 
 h1 {
@@ -7,22 +10,26 @@ h1 {
     margin-top: 20px;
     margin-left: 30px;
     cursor: pointer;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background: none;
 }
 
 p {
     font-size: 30px;
     width: 1000px;
-    display: block;
-    margin-left: 30px;
+margin-left: 150px;
     cursor: pointer;
+    background: none;
 }
 
 .minha-foto {
-    margin-top: 20px;
-    width: 600px;
-    height: 800px;
-    display: block;
-    margin-left: 30px;
+    
+    width: 300px;
+    height: 500px;
+    margin-left: 38%;
+    margin-top: 10px;
     cursor: pointer;
 }
 
@@ -30,16 +37,19 @@ p {
     font-size: 30px;
     color: rgb(255, 230, 8);
     text-decoration: none;
-    display: inline-block;
-    margin-left: 30px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
     font: bold;
+    background: none;
 }
 
 .insta {
-    cursor: progress;
-    display: inline-block;
     width: 30px;
-    margin-left: 10px;
+   margin-left: 50%;
+    cursor: progress;
+    background: none;
+  
 }
 
 
@@ -52,9 +62,37 @@ a:active {
 }
 
 h1:hover {
-    color: azure
+    color: rgb(76, 27, 253)
 }
 
 p:hover {
-    color: beige
+    color: rgb(247, 75, 7)
+}
+
+@media screen and (max-width:600px){
+
+    h1 {
+    font-size: 30px;
+    width: 300px;
+ margin-left: 30px;
+  
+    
+    }
+
+    p {
+        font-size: 25px;
+        width: 300px;
+        margin-left: 40px;
+        margin-bottom: 20px;
+    }
+
+    .meu-link{
+
+        margin-bottom: 10px;
+    }
+
+    .minha-foto {
+
+        margin-left: 25px;
+    }
 }
